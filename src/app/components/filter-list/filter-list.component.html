@@ -1,0 +1,8 @@
+<div class="block-filter">
+    <div class="filters">
+        <form>
+            <div class="filter" *ngFor="let item of filter?.drinks; index as i;"><input type="checkbox" id="{{i}}" [(ngModel)]="filterList[i]" [ngModelOptions]="{standalone: true}"/> <label for="{{i}}">{{item.strCategory}}</label></div>
+        </form>
+    </div>
+    <button type="button" class="btn btn-secondary" (click)="filterItem()">APPLY</button>
+</div>

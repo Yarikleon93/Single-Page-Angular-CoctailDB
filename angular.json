@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "CocktailDB"
+    }
+  },
+  "defaultProject": "CocktailDB",
+  "cli": {
+    "analytics": false
+  }
 }

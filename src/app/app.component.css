@@ -1,0 +1,15 @@
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.filter-container {
+    width: 15%;
+}
+.container {
+    width: 85%;
+    padding-top: 1.5%;
+    padding-left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}

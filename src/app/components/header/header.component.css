@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Seaweed+Script&display=swap');
+span {
+    color: orange;
+    font-family: 'Seaweed Script', cursive;
+    font-size: 210%;
+}
+span>img{
+    margin-top: -1%;
+}
+div {
+    text-align: center;
+    box-shadow: 0 0 9px gray;    
+}
